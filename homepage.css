@@ -1,0 +1,28 @@
+#body {
+    background-color:#D0D0D0;
+}
+
+
+#Password {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -150px;
+    width: 300px;
+    box-shadow: 10px 10px 10px #888888;
+  }
+  
+  label[for="text17"] { 
+    margin-left: 10px;
+  }
+  
+  
+  #text18 {
+    position: center;
+  }
+
+  #IncorrectCode{
+    color: red;
+    position: center;
+    display: none;
+  }

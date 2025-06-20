@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe</title>
+    <link rel="stylesheet" href="https://jdan.github.io/98.css/98.css">
+    <link rel="stylesheet" href="rotation.css">
+
+</head>
+<body class="background">
+
+    <div id="ring1"><img src = "images\ring1.svg" id="ring1" alt="ring1"></div>
+    <div id="ring2"><img src = "images\ring2.svg" id="ring2" alt="ring2"></div>
+    <div id="ring3"><img src = "images\ring3.svg" id="ring3" alt="ring3"></div>
+    
+    <img src = "images\safeOpen.svg" id="safeOpen" style=display:none alt="safeOpen">
+
+    <h1 id="h1" style=display:none > Congratulations! You did it! </h1>
+
+    <div id= "progress" class="window" style="width: 300px">
+        <div class="title-bar">
+          <div class="title-bar-text">Progress</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <p id="Incorrect"> Try again! </p>
+      </div>
+        <div id = "progressBar" class="progress-indicator segmented">
+        <span class="progress-indicator-bar" >
+      </div>
+      </div>
+
+      <button id="button" style="display: none;">Open safe</button>
+
+      <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
+      <script src="code.js"></script>
+      <script src="rotation.js"></script>
+
+</body>
+</html>
